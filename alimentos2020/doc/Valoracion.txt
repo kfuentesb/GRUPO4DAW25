@@ -9,6 +9,7 @@ En cuanto a la asignación de tareas, todo el equipo estuvo de acuerdo, prioriza
 No está conforme con haber proporcionado datos confidenciales, como su dirección o número de teléfono, al momento de realizar el hosting.
 
 Le ha resultado complicado localizar el gestor de base de datos a través de la interfaz web; aunque cómodo de usar, resulta confuso acceder a él.
+Ha tenido problema con las contraseñas (he tenido q cambiarla pq me fallaba - creo q no se pueden usar contraseñas seguras con carácteres especiales).
 
 Tenía permisos denegados para trabajar con nuestro repositorio. Se tuvo que crear una nueva clave ssh y conectar con [git@github.com](mailto:git@github.com) para poder trabajar con ello. Le ha costado bastante pero se pudo realizar con ayuda del equipo.
 
