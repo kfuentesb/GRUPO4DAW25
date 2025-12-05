@@ -1,1 +1,29 @@
+**Integrante 1: Kevin Fuentes**
 
+El repositorio se creó correctamente, pero al principio hice una subida incorrecta de archivos, ya que subí el proyecto completo. Posteriormente, lo eliminé y subí únicamente mi parte.
+
+En cuanto a la asignación de tareas, todo el equipo estuvo de acuerdo, priorizando los gustos de cada uno y sin ningún inconveniente.
+
+**Integrante 2: Sergio Mate**
+
+No está conforme con haber proporcionado datos confidenciales, como su dirección o número de teléfono, al momento de realizar el hosting.
+
+Le ha resultado complicado localizar el gestor de base de datos a través de la interfaz web; aunque cómodo de usar, resulta confuso acceder a él.
+
+Tenía permisos denegados para trabajar con nuestro repositorio. Se tuvo que crear una nueva clave ssh y conectar con [git@github.com](mailto:git@github.com) para poder trabajar con ello. Le ha costado bastante pero se pudo realizar con ayuda del equipo.
+
+En cuánto al documento, sin problemas.
+
+**Integrante 3: Alberto Beas**
+
+En general, no ha habido problemas con los pasos a seguir, sino con la ejecución de la subida de archivos.
+
+No ha tenido inconvenientes al modificar el archivo `Config.php` y está satisfecho, ya que ha aprendido a usar Git y GitHub con mayor soltura, además de descubrir otras formas de trabajar con estas herramientas.
+
+**Valoración general**
+
+El equipo ha colaborado con muy buena disposición. 
+
+Ha habido problemas a la hora de subir los archivos de parte de todos los usuarios. Kevin ha subido de más, y lo reajustó. Sergio tuvo problemas de conexión al repositorio y tuvimos que solventarlo creando una nueva clave ssh y Alberto no tenía claro como trabajar desde el git init y cómo usar el git add por archivos.
+
+En resumen, ha habido aprendizaje sobre todo en el uso de git y github.
