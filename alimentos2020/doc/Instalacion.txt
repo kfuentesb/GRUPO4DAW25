@@ -1,0 +1,44 @@
+============================================================
+INSTRUCCIONES DE INSTALACIÓN Y DESPLIEGUE - Integrante 2
+============================================================
+
+1. CREACIÓN DE LA BASE DE DATOS
+   - Panel AlwaysData → Bases de Datos → MySQL → phpMyAdmin
+   - BD: controlversionesdespliegue_alimentos42025
+   - Tabla creada con SQL:
+     CREATE TABLE `alimentos` (
+       `id` int(11) NOT NULL AUTO_INCREMENT,
+       `nombre` varchar(255) NOT NULL,
+       `energia` decimal(10,0) NOT NULL,
+       `proteina` decimal(10,0) NOT NULL,
+       `hidratocarbono` decimal(10,0) NOT NULL,
+       `fibra` decimal(10,0) NOT NULL,
+       `grasatotal` decimal(10,0) NOT NULL,
+       PRIMARY KEY (`id`)
+     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+2. DESPLIEGUE CON SSH + GIT
+   Comandos ejecutados:
+	- ssh controlversionesdespliegue@ssh-controlversionesdespliegue.alwaysdata.net
+	- ssh -T periquito18@github.com
+	- ssh-keygen -t rsa -b 4096  -C "mate.palacios.sergio@iescamas.es"
+	- eval "$(ssh-agent -s)"
+	- ssh-add ~/.ssh/id_rsa
+	- git init
+	- git remote add origin git@github.com:kfuentesb/GRUPO4DAW25.git
+	- git pull origin master
+	- git status//git add .//git commit -m “”//git push --set-upstream origin master
+	- ls // cd // pwd // mv // rm // mkdir // nano // exit
+
+3. CONFIGURACIÓN
+- app/Config.php modificado por Integrante 3 con:
+	Host: 			mysql-tusuario.alwaysdata.net
+	Base de datos: 		controlversionesdespliegue_alimentos42025
+	Usuario: 		444421
+	Clave:			grupo4Despliegue
+	Vista CSS:		estilo.css	
+
+4. URL DEL PROYECTO
+URL Despliegue Alwaysdata:		https://controlversionesdespliegue.alwaysdata.net/
+URL Github:				https://github.com/kfuentesb/GRUPO4DAW25
+Integrantes:				Alberto Beas, Kevin Fuentes, Sergio Mate
