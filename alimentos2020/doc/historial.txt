@@ -1,0 +1,30 @@
+1. Concretamos la asignación de puestos.
+	Integrante 1 --> Kevin Fuentes
+	Integrante 2 --> Sergio Mate
+	Integrante 3 --> Alberto Beas
+
+2. En primer lugar, Kevin crea el repositorio en Github en https://github.com/kfuentesb/GRUPO4DAW25
+
+3. Kevin asocia a Sergio Mate y Alberto Beas al repositorio para poder hacer las aportaciones.
+
+4. Kevin realiza la primera subida de archivos del front-end.
+
+5. Sergio Mate crea la base de datos en el hosting.
+
+6. Alberto modifica el archivo Config.php para el acceso a la base de datos con los datos que le ha facilitado Sergio Mate.
+
+7. Alberto sube los archivos index.php + Controller.php + Config.php.
+
+8. Sergio Mate sube el archivo Model.php 
+
+9. Sergio Mate despliega el proyecto en el hosting usando SSH y comandos GIT.
+
+10. Sergio Mate añade al repositorio instalacion.txt
+
+11. Kevin añade al repositorio valoraciones.txt
+
+12. Alberto añade al repositorio historial.txt
+
+URL hosting: https://controlversionesdespliegue.alwaysdata.net/
+
+
